@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', serif;
+    margin-bottom: 0px;
+}
+.buyer_list_table{
+    border-collapse: collapse;
+    border: 7px solid black;
+    width: 100%;
+    margin-top: 20px;
+}
+.buyer_list_table thead tr{
+    background-color: #5e4a4a;
+}
+.buyer_list_table th{
+    color: rgb(151, 149, 149);
+}
+.buyer_list_table th,.buyer_list_table td{
+    padding: 5px;
+    border: 3px solid #351d1d;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: underline;
+}
+
+.container {
+    margin-left: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+.close_button{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+.success_modal{
+    position: relative;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1rem;
+    background-color: rgb(13, 77, 13);
+    border: 1px solid rgb(1, 19, 1);
+}
+.error_modal{
+    position: relative;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1rem;
+    background-color: #8a7a7a;
+    border: 1px solid darkred;
+}
+
+
+#buyer_delete_modal{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 2rem;
+    border: 0.3125rem solid #424242;
+    width: 40rem;
+    height: 10rem;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}
+
+#buyer_delete_modal a{
+    display: inline-block;
+    padding-left:0px  ;
+    text-decoration: none;
+    background-color: #948888;
+    border: 0.0625rem solid #777171;
+    color: #212121;
+
+}
+
+#product_delete_modal{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 2rem;
+    border: 0.3125rem solid #807070;
+    width: 40rem;
+    height: 10rem;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+}
+
+#product_delete_modal a{
+    display: inline-block;
+    padding: 0.5rem 1.25rem ;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    border: 0.0625rem solid #cccccc;
+    color: #776363;
+
+}
+
+#sale_delete_modal{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 2rem;
+    border: 0.3125rem solid #424242;
+    width: 40rem;
+    height: 10rem;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+
+}
+
+#sale_delete_modal a{
+    display: inline-block;
+    padding: 0.5rem 1.25rem ;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    border: 0.0625rem solid #cccccc;
+    color: #212121;
+
+}
+
+.header{
+    height: 150px;
+    background-color: #8b5f26;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 110px;
+    font-family: unset;
+}
+.nav{
+    background-color: #0c2346;
+    font-size: 30px;
+    text-decoration: none;
+    padding-top: 0px;
+    text-align: center;
+}
+.nav-item{
+    color: black;
+}
+.nav-link{
+    color: white;
+    font-weight: 400;
+    --bs-nav-link-hover-color: #212121; 
+}
+
+.form{
+    text-align: center;
+    padding-top:100px;
+    background-color: #90aa1c;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.modal-button{
+    background-color: #152435;
+    color: white;
+    width: 10%;
+}
